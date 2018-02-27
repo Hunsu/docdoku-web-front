@@ -57,7 +57,8 @@ module.exports = {
                         'sounds/**',
                         'js/home/main.js',
                         'js/lib/plugin-detect.js',
-                        'js/lib/empty.pdf'
+                        'js/lib/empty.pdf',
+                        'js/lib/helvetiker_regular.typeface.json'
                     ]
                 }, {
                     expand: true,

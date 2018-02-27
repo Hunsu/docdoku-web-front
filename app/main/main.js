@@ -12,8 +12,6 @@ require.config({
         jqueryUI: {deps: ['jquery'], exports: 'jQuery'},
         bootstrap: {deps: ['jquery', 'jqueryUI'], exports: 'jQuery'},
         backbone: {deps: ['underscore', 'jquery'], exports: 'Backbone'},
-        trackballcontrols: {deps: ['threecore'], exports: 'THREE'},
-        binaryloader: {deps: ['threecore'], exports: 'THREE'},
         oidcClient: {exports: 'Oidc'}
     },
 
@@ -44,10 +42,6 @@ require.config({
         'underscore',
         'bootstrap',
         'jqueryUI',
-        'threecore',
-        'tween',
-        'trackballcontrols',
-        'binaryloader',
         'oidcClient'
     ],
     config: {
